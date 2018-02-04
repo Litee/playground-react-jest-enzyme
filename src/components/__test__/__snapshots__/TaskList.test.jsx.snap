@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Must add todo 1`] = `
+<TodoList>
+  <div>
+    <h2>
+      TODO Items:
+    </h2>
+    <ul>
+      <TodoItem
+        key="Do X"
+        onDelete={[Function]}
+        title="Do X"
+      >
+        <li>
+          Do X
+           
+          <button
+            onClick={[Function]}
+          >
+            delete
+          </button>
+        </li>
+      </TodoItem>
+    </ul>
+    <AddTodo
+      onAddTodo={[Function]}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label>
+          Add todo:
+        </label>
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </form>
+    </AddTodo>
+  </div>
+</TodoList>
+`;
+
+exports[`Must ignore adding duplicates 1`] = `
+<TodoList>
+  <div>
+    <h2>
+      TODO Items:
+    </h2>
+    <ul>
+      <TodoItem
+        key="Do X"
+        onDelete={[Function]}
+        title="Do X"
+      >
+        <li>
+          Do X
+           
+          <button
+            onClick={[Function]}
+          >
+            delete
+          </button>
+        </li>
+      </TodoItem>
+    </ul>
+    <AddTodo
+      onAddTodo={[Function]}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label>
+          Add todo:
+        </label>
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </form>
+    </AddTodo>
+  </div>
+</TodoList>
+`;
+
+exports[`Must remove todo 1`] = `
+<TodoList>
+  <div>
+    <h2>
+      TODO Items:
+    </h2>
+    <ul />
+    <AddTodo
+      onAddTodo={[Function]}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label>
+          Add todo:
+        </label>
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </form>
+    </AddTodo>
+  </div>
+</TodoList>
+`;
+
+exports[`Must render properly 1`] = `
+<div>
+  <h2>
+    TODO Items:
+  </h2>
+  <ul />
+  <AddTodo
+    onAddTodo={[Function]}
+  />
+</div>
+`;
