@@ -4,13 +4,15 @@ exports[`Must allow adding 1`] = `
 <form
   onSubmit={[Function]}
 >
-  <label>
-    Add todo:
-  </label>
   <input
     onChange={[Function]}
     type="text"
     value=""
   />
+  <button
+    onClick={[Function]}
+  >
+    add
+  </button>
 </form>
 `;

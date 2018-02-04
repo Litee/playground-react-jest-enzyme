@@ -29,14 +29,16 @@ exports[`Must add todo 1`] = `
       <form
         onSubmit={[Function]}
       >
-        <label>
-          Add todo:
-        </label>
         <input
           onChange={[Function]}
           type="text"
           value=""
         />
+        <button
+          onClick={[Function]}
+        >
+          add
+        </button>
       </form>
     </AddTodo>
   </div>
@@ -72,14 +74,16 @@ exports[`Must ignore adding duplicates 1`] = `
       <form
         onSubmit={[Function]}
       >
-        <label>
-          Add todo:
-        </label>
         <input
           onChange={[Function]}
           type="text"
           value=""
         />
+        <button
+          onClick={[Function]}
+        >
+          add
+        </button>
       </form>
     </AddTodo>
   </div>
@@ -99,14 +103,16 @@ exports[`Must remove todo 1`] = `
       <form
         onSubmit={[Function]}
       >
-        <label>
-          Add todo:
-        </label>
         <input
           onChange={[Function]}
           type="text"
           value=""
         />
+        <button
+          onClick={[Function]}
+        >
+          add
+        </button>
       </form>
     </AddTodo>
   </div>
